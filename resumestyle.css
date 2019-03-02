@@ -1,0 +1,155 @@
+body{
+	width:100%;
+	/*background-color: #90EE90;*/
+	background-size: auto;
+	background-image:url("123.jpg");
+	height:100%;
+}
+	
+/*.bg{
+	background-color: white;
+	margin: 0px 300px 0px 300px;
+	padding: 10px 100px 10px 100px ;
+	
+}*/
+
+/******************************************* Navigation List in the header **********************************/
+.navigationlinkslist {
+	background-color: #085a9d ;
+	list-style-type: none;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	
+}
+
+.navitem{
+	display: inline;
+	float: left;
+	
+}
+.navbtn{
+	display: block;
+	padding: 20px;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	font-size:20px;
+}
+
+li a:hover {
+	background-color: #074b83;
+	padding:10px;
+	margin:10px;
+}
+
+
+
+
+.container{
+	width: 100%;
+	background-color: #ddd
+}
+/*********************************Adding Ratio bar for each skill**************************************/
+.arabic{
+	width:100%;
+	background-color:#085a9d ;
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+
+.java,.english {
+	width: 90%;
+	background-color: #085a9d;
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+
+.matlab,.oracle,.sql {
+	width: 80%;
+	background-color: #085a9d ;
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+
+.html,.android{
+	width: 70%;
+	background-color: #085a9d ;
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+
+.c,.ios{
+	width: 60%;
+	background-color: #085a9d ;
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+
+.french{
+	width: 50%;
+	background-color: #085a9d ;
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
+
+
+/********************************************Footer bar design (same as header)********************************/
+footer{
+	background-color: #085a9d ;
+	list-style-type: none;
+	position: absolute;
+
+	width: 100%;
+	text-align: center;
+	
+}
+
+/******************************** Making Profile picture rounded and centered************************************/
+#profilepic{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*********************************Adding cards for each section**************************************************/
+.introsection{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #f1f1f1;
+	margin: 0px 300px 40px 300px;
+	padding: 10px 100px 30px 100px;
+	text-align: center;
+}
+.generalinfocard, .educationsection, .skillsection, .experiencesection, .languagesection,.contactsection {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*padding: 16px;*/
+  /*margin-bottom: 40px;*/
+  background-color: #f1f1f1;
+  margin: 0px 300px 40px 300px;
+  padding: 10px 100px 30px 100px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

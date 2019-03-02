@@ -1,0 +1,31 @@
+.navigationlinkslist {
+	background-color: #085a9d ;
+	list-style-type: none;
+	overflow: hidden;
+	position: fixed;
+	top:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	
+}
+
+.navitem{
+	display: block;
+	float: left;
+	
+}
+.navbtn{
+	display: block;
+	padding: 20px;
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	font-size:20px;
+}
+
+li a:hover {
+	background-color: #074b83;
+	padding:10px;
+	margin:10px;
+}
