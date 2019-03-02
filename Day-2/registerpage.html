@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Registeration Form </title>	
+		<link rel="stylesheet" type="text/css" href="registerstyle.css">		
+	</head>
+	
+	<body>
+		<header class="registerpageheader">
+			<ul class="navigationlinkslist">
+				<li class="navitem"><a class="navbtn" href="resume.html" >Resume Page</a></li>
+				<li class="navitem"><a class="navbtn" href="loginpage.html" >Login Page</a></li>
+				<li class="navitem"><a class="navbtn" href="index.html" >Index Page</a></li>
+				<li class="navitem"><a class="navbtn" href="page3.html" >Site Directories Page</a></li>
+			</ul>
+		</header>	
+		
+		
+		<div class="bg">
+			<form class="container">
+				<fieldset>
+					<legend style="color:#085a9d;"><b>1) Account Information: </b></legend>
+						</br>
+						Username:* <input type="text" name="Username" maxlength="10"  required autofocus/>
+						</br>
+						Password:* <input type="password" name="Password" required/>
+						</br>
+						Confirm Password:* <input type="password" name="Password" required/>
+						</br>
+						Credit Card No:* <input type="text" name="Password" maxlength="14" required/>
+
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend style="color:#085a9d;"><b>2) Personal Information: </b></legend>
+						</br>
+						Name:* <input type="text" name="Username" required/>
+						</br>
+						Date of birth: <input type="datetime-local">
+						</br>
+						Favourite Color: <input type="color">
+						</br>
+						Profile Photo(s): <input type="file" multiple>
+						</br>
+						Favourite Browser: <input type="text" list="browsers">
+						<datalist id="browsers">
+							<option value="Google Chrome"/>
+							<option value="FireFox"/>
+							<option value="Internet Explorer"/>
+							<option value="Opera"/>
+							<option value="Microsoft Edge"/>
+						</datalist>
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend style="color:#085a9d;"><b> 3) Company Information: </b></legend>
+						</br>
+						No.of Employees: <input type="number" min="0"/>
+						</br>
+						Estimated Revenue: <input type="range" name="RevenueNumber"/>
+
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend style="color:#085a9d;"><b> 4) Contact Information: </b></legend>
+					</br>
+					Email Address(es):* <input type="email" multiple />
+					</br>
+					Phone Number: <input type="text" maxlength="11"/>
+					</br>
+					Website URL: <input type="url" name="WebsiteURL"/>
+					</br>
+				</fieldset>
+				
+				<center>
+					<input type="submit" name="SubmitRegister" style="font-size:20px"/>
+					<input type="reset" name="Cancel" value="Cancel" style="font-size:20px"/>
+				</center>	
+			</form>
+			
+		</div>
+		
+		
+
+		
+	</body>
+	
+</html>
